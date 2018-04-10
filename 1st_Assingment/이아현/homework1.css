@@ -1,0 +1,47 @@
+.container{
+	
+}
+.id {
+  height: 30px;
+  width: 100px;
+  background-color: skyblue;
+}
+.image {
+
+  height: 500px;
+  width: 500px;
+  background-color: pink;
+
+}
+
+.h {
+	float: left;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+.s {
+	float: left;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.space{
+	float: left;
+  height: 50px;
+  width: 350px;
+  background-color: white;
+}
+.check {
+	float: left;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+
+.reply{
+  height: 150px;
+  width: 500px;
+  background-color: yellow;
+}

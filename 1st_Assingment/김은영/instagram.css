@@ -1,0 +1,281 @@
+
+.instagram {
+    overflow : hidden;
+}
+
+.navigation {
+    height : 80px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color : #e8e8e8;
+    background-color : white;
+}
+
+.insta-logo {
+    margin-left : 200px;
+    margin-top : 15px;
+    float : left;
+}
+
+.insta-logo-picture {
+    width : 190px;
+    height : auto;
+}
+
+.searchbar {
+    float : left;
+    margin-left : 200px;
+    margin-top : 30px;
+}
+
+.searchpic {
+    width : 200px;
+    height : auto;
+}
+
+.compass {
+    float : left;
+    margin-left : 300px;
+    margin-top : 25px;
+}
+.heart, .person {
+    float : left;
+    margin-left : 30px;
+    margin-top : 25px;
+}
+
+.compasspic, .heartpic, .personpic {
+    width : 25px;
+    height : auto;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.left-insta, .right-insta {
+    float : left;
+    margin-top : 50px;
+}
+
+.left-insta {
+    margin-left : 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color : #e8e8e8;
+
+    background-color : white;
+    width : 700px;
+}
+
+.right-insta {
+    margin-left : 40px;
+    width : 300px;
+}
+
+.user {
+    height : 50px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color : #e8e8e8;
+}
+.user-image {
+    margin-left : 20px;
+    margin-top : 5px;
+    width : 40px;
+    height : 40px;
+    float : left;
+}
+
+.userpic {
+    width : 40px;
+    height : 40px;
+}
+
+.user-nickname {
+    width : 100px;
+    height : 10px;
+    margin-left : 10px;
+    float : left;
+}
+
+.user-nick {
+    margin-top : 18px;
+    font-size : 12px;
+}
+
+.picture-image {
+    width : 700px;
+    height : 700px;
+}
+
+.button {
+    height : 30px;
+    margin-top : 10px;
+}
+
+.likeicon {
+    margin-left : 20px;
+    float :left;
+}
+
+.commenticon {
+    margin-left : 20px;
+    float : left;
+}
+
+.bookmarkicon {
+    margin-right : 20px;
+    float : right;
+}
+
+.likepic {
+    width : 20px;
+    height : 20px;
+}
+
+.commentpic {
+    width : 20px;
+    height : 20px;
+}
+
+.bookmarkpic {
+    width : 20px;
+    height : auto;
+}
+
+.likecount {
+    margin-left : 20px;
+    margin-bottom : 7px;
+    margin-top : 5px;
+}
+
+.likecount-text {
+    font-size : 15px;
+}
+
+.comment {
+    margin-left : 20px;
+}
+
+.comment-content {
+    margin-bottom : 5px;
+}
+
+.comment-nick {
+    font-size : 14px
+}
+
+.comment-text {
+    font-size : 10px
+}
+
+.user-story {
+    height : 60px;
+}
+
+.user-story-image {
+    width : 60px;
+    height : 60px;
+    float : left;
+}
+
+.user-story-pic {
+    width : 60px;
+    height : 60px;
+}
+
+.user-story-nickname {
+    width: 100px;
+    height : 10px;
+    float : left;
+
+    margin-left : 15px;
+    margin-top : 15px;
+}
+.user-story-nick-text {
+    font-size : 13px;
+}
+
+.all {
+    margin-top : 10px;
+    margin-left : 10px;
+    margin-bottom : 20px;
+}
+
+.all-stroy-text {
+    font-size : 15px;
+    color : grey;
+}
+
+.all-more-text {
+    margin-left : 180px;
+    font-size : 10px;
+}
+
+.line {
+    width : 500px;
+}
+
+.line2 {
+    width : 300px;
+}
+
+.hr-style {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.insta-friend {
+    overflow: hidden;
+    margin-bottom : 15px;
+    height : 60px;
+}
+
+.insta-friend-image {
+    width : 50px;
+    height : 50px;
+    float : left;
+}
+
+.insta-friend-pic {
+    width : 50px;
+    height : 50px;
+}
+
+.insta-friend-nickname {
+    width : 50px;
+    height :20px;
+    margin-left : 10px;
+    margin-top : 5px;
+    float : left;
+}
+
+.insta-friend-text {
+    font-size : 12px;
+}
+
+.insta-friend-time {
+    width : 100px;
+    height : 10px;
+    margin-left : 10px;
+    margin-top : 2px;
+}
+
+.insta-friend-time-text {
+    font-size : 10px;
+    margin-left : 10px;
+    color : gray;
+}
+
+.info {
+    width : 300px;
+    margin-top : 30px;
+}
+
+.info-text {
+    color : rgb(185, 184, 184);
+    font-size : 10px;
+}

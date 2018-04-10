@@ -1,0 +1,452 @@
+body {
+    font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    /*    padding: 0;*/
+    background-color: #fafafa;
+}
+
+.box1Out{
+        background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+.box1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.box1 {
+    padding: 26px 40px 0px 40px;
+    width: 930px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+/*    border-bottom: 1px solid rgba(0, 0, 0, .0975);*/
+}
+
+.box1 .logo {
+    position: relative;
+    float: left;
+    width: 38%;
+    margin-top: -23px;
+}
+
+.box1 .logo img {
+    width: 176px;
+}
+
+.box1 .logo .insta-logo {
+    display: block;
+    padding: 5px;
+    width: 176px;
+}
+
+.box1 .search {
+    float: left;
+    min-width: 120px;
+    width: 215px;
+    height: 0px;
+}
+
+.box1 .search input {
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    color: #bebebe;
+    font-size: 14px;
+    outline: 0;
+    padding: 3px 10px 3px 10px;
+    z-index: 2;
+    text-align: center;
+}
+
+.box1 .nav-btn {
+    float: right;
+
+    margin-top: -7px;
+
+
+    /*    padding-left:24px;*/
+}
+
+.box1 .nav-btn img {
+    width: 24px;
+}
+
+.box1 .nav-btn button {
+    background-color: #fafafa;
+    border: none;
+    margin-right: 0;
+}
+
+/*############## article  ##########*/
+
+/*
+.box2 .self::after {
+    content"";
+    display: block;
+    clear: both;
+}
+*/
+
+.boxA {
+    border-radius: 3px;
+}
+
+.box2 {
+    border: 1px solid #e6e6e6;
+    margin-bottom: 60px;
+}
+
+.box2 .self {
+    height: 40px;
+    border-bottom: 1px solid #efefef;
+}
+
+.box2 .self .selfName {
+    font-size: 13px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.box2 .self .selfName .subName {
+    color: #999;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.box2 .self .selfPic {
+    margin-left: 7px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: 1px solid red;
+}
+
+.box2 .self .selfPic img {
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+
+}
+
+.box2 .self .selfName {
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.box2 .self .dots {
+    display: none;
+    float: right;
+    background-color: #fafafa;
+    border: none;
+    margin: 8px;
+}
+
+.box2 .self .dots img {
+    width: 16px;
+    height: 16px;
+}
+
+/* box2 pictuer*/
+
+.box2 .picture::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box2 .picture img {
+    width: 100%;
+}
+
+/*##### reply box*/
+
+/*########## reply Button*/
+
+.box2 .reply .replyBtn::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box2 .reply .replyBtn {
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.box2 .reply .leftBtn img {
+    float: left;
+    width: 24px;
+    margin-right: 18px;
+}
+
+.box2 .reply .rightBtn img {
+    float: right;
+    width: 24px;
+}
+
+
+
+.box2 .reply .replyNum::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.reply .like {
+    margin-bottom: 5px;
+}
+
+.reply .like a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #262626;
+}
+
+.box2 .reply {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.box2 .reply .replyNum {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.replyName {
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+}
+
+.replyContent {
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.replyDate {
+    margin-top: 6px;
+    color: #999;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.replyPush input {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    background-color: #fafafa;
+}
+
+/*#### boxB*/
+
+.box2 .self::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box2 .self {
+    padding-top: 7px;
+
+}
+
+.boxB {
+    margin-left: 20px;
+}
+
+hr {
+    border-top: 1px solid #efefef;
+    /*    height: 4px;*/
+    margin: 3 3 12px;
+    width: 100%;
+}
+
+.box3 .self .selfPic {
+    float: left;
+    width: auto;
+    padding: 3px;
+}
+
+.box3 .self .selfPic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+}
+
+.box3 .self .selfName {
+    margin-top: 9px;
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.box3 .self .selfName .subName {
+    color: #999;
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.storyName {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #999;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.storyContent {
+    margin-top: 10px;
+    margin-bottom: 150px;
+    font-size: 14px;
+}
+
+.inform ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.inform li a {
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+
+}
+
+
+.inform ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inform li {
+    float: left;
+    width: auto;
+}
+
+.inform .space {
+    clear: both;
+}
+
+.box4 p {
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+/*639px 이하일 떄 실행*/
+
+@media all and (max-width: 500px) {}
+
+
+@media all and (max-width: 640px) {
+    .box1 .search {
+        display: none;
+    }
+    .boxA {
+        padding-top: 10px;
+        max-width: 614px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box1 {
+        width: auto;
+        height: 50px;
+    }
+    .box2 .self .dots {
+        display: block;
+        float: right;
+        background-color: none;
+        border: none;
+        margin: 8px;
+    }
+}
+
+
+/*1009 이하일 때*/
+
+@media all and (min-width: 640px) and (max-width: 1009px) {
+    .boxB {
+        /*        visibility: hidden;*/
+    }
+    .boxA {
+        padding-top: 60px;
+        max-width: 614px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box1 {
+        width: auto;
+        height: 50px;
+    }
+
+}
+
+/*1000px 이상 넓이해서 설정값*/
+
+@media all and (min-width: 1010px) {
+    .boxA::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .boxA {
+        padding-top: 60px;
+        clear: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 935px;
+
+    }
+    .box1 {
+        padding: 26px 40px 0px 40px;
+        width: 1010px;
+        height: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .boxC {
+        float: left;
+        width: 600px;
+
+    }
+    .boxB {
+        float: left;
+        width: 293px;
+
+    }
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>최유성</title>
+<style type="text/css">
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    position: relative;
+    width:100%;
+}
+.header{
+    position:relative;
+    width:100%;
+    height:60px;
+    background:gray
+}
+
+.clearfix::after,.clearfix::before{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+.container{
+    position: relative;
+    width:768px;
+    margin:0 auto;
+    background:#eee;
+    border:1px solid red;
+}
+
+.lnb{
+    position: relative;
+    float:left;
+    width:70%;
+    background:red;
+}
+.lnb p.title {
+    width:100%;
+    font-size:20px;
+    background:#fff;
+    line-height:50px;
+}
+.lnb img{
+    width:100%;
+    height:auto;
+}
+
+.lnb .heart-box img{
+    float:left;
+    width:30px;
+    height:auto;
+}
+
+.lnb .heart-box img.img-right{
+    float:right;
+}
+
+
+.content{
+    float:right;
+    top:0;
+    right:0;
+    width:30%;
+    height:100%;
+    background:blue;
+    box-sizing: border-box;
+}
+
+.content .comments{
+    background:blueviolet;
+}
+
+.content .info{
+    background:aqua;
+}
+
+footer{
+    width:100%;
+    height:60px;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .lnb{
+        width:100%;
+    }
+    .content{
+        display:none;
+    }
+}
+
+
+</style>
+</head>
+<body>
+<div class="wrap">
+    <header>header</header>
+    <div class="container clearfix">
+        <div class="lnb">
+            <p class="title">최유성</p>
+            <img src="./img.png" alt="img"/>
+            <div class="heart-box clearfix">
+                <img src="./1.png" alt="img">
+                <img src="./2.png" alt="img">
+                <img class="img-right" src="./3.png" alt="img">
+            </div>
+            <p>댓글댓긇ㅇㅎㅇㅎㅇ</p>
+        </div>
+        <div class="content">
+            <div class="comments">
+                1
+            </div>
+            <div>
+                2
+            </div>
+            <div class="info">info</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

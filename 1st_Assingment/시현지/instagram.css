@@ -1,0 +1,34 @@
+.feed {
+
+}
+.name {
+  height: 40px;
+  width: 110px;
+}
+.image {
+
+  height: 500px;
+  width: 500px;
+  background-color: pink;
+
+}
+.icon {
+  height: 25px;
+  width: 55px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 5px;
+
+}
+.comments{
+  height: 100px;
+  width: 300px;
+}
+
+.like {
+  font-weight: bold;
+}
+.time {
+  font-weight: lighter;
+  font-size: 1px;
+}

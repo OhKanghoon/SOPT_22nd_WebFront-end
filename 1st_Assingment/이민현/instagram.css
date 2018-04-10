@@ -1,0 +1,64 @@
+
+.body, .main, .aside{
+  height: inherit;
+}
+
+/*navbar*/
+.navbar{
+  justify-content: space-around;
+  position: fixed;
+}
+.nav_left{
+  float: left;
+  width: 33%;
+}
+.nav_middle{
+  float: left;
+  width: 33%;
+}
+.nav_right{
+  float: left;
+  width: 33%;
+}
+
+/*images*/
+.images{
+  height: 40px;
+  width: auto;
+}
+#lg_logo{
+  height: 30px;
+  width: auto;
+}
+
+
+.main{
+  height: 600px;
+  width: 600px;
+}
+
+.left_main{
+  width: 50%;
+  float: left;
+  margin-left: 250px;
+}
+
+.myid{
+  margin-top: 100px;
+}
+
+.name{
+  color: gray;
+  margin-bottom: 30px;
+}
+.right_main{
+  margin-left: 50px;
+  float: left;
+  width: 20%;
+  height: inherit;
+
+}
+
+.story{
+  color: gray;
+}

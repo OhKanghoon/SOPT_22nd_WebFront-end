@@ -1,0 +1,299 @@
+div{
+    display : inline;
+}
+body{
+    background-color: #f8f8f8;
+}
+img{
+    vertical-align: middle;
+    horiz-align: center;
+    max-width: 600px;
+    max-height: 100%;
+}
+
+.super-container{
+    padding: 0;
+}
+
+article.feedContainer{
+    max-width: 600px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 250px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+
+article.feedContainer .feedContents{
+    float:left;
+    padding: 0 16px;
+}
+article.feedContainer .storyPanel{
+    float: right;
+    width: 195px;
+    background: #f8f8f8;
+}
+aside.storyPanel{
+    float: right;
+    margin-right: 250px;
+    width: 300px;
+    height: 700px;
+    max-width: 350px;
+    background-color:#f8f8f8;
+}
+aside.storyPanel .profileImage{
+    width: 50px;
+    height: 50px;
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    margin: 8px 8px 8px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+aside.storyPanel .storyUserTitle{
+    width: 300px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width : 0.5px;
+}
+
+aside.storyPanel .storyList{
+    max-width: 300px;
+    margin-left: -20px;
+    height: 400px;
+    background-color: #f8f8f8;
+}
+aside.storyPanel .storyList .profileImage{
+    width: 50px;
+    height: 50px;
+    background-color: deeppink;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    border-radius: 50%;
+    margin-left: 1px;
+    cursor:pointer;
+}
+aside.storyPanel .storyUser{
+    font-weight: bold;
+}
+
+.line{
+    display: block;
+    width: 300px;
+    min-height: 0.5px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width : 0.5px;
+}
+
+article.feedContainer .feedContents .interestingYet{
+    background-position: -26px -349px;
+    cursor: pointer;
+}
+article.feedContainer .feedContents .interestingDone{
+    background-position: 0 -349px;
+    cursor: pointer;
+}
+
+article.feedContainer .feedContents .interestingDesc{
+    margin : 8px 8px 8px 0px;
+}
+article.feedContainer .feedContents .feedInteresting{
+    height: 24px;
+    width: 24px;
+    background-image: url("https://bit.ly/2Ei4dYd");
+    background-position: -26px -349px;
+    border: none;
+    background-color: #fff;
+    margin: 8px 8px 8px 0px;
+}
+
+article.feedContainer .feedContents .commentIcon{
+    height: 24px;
+    width: 24px;
+    background-image: url("https://bit.ly/2Ei4dYd");
+    background-position: -306px -289px;
+    border: none;
+    background-color: #fff;
+    margin: 8px 8px 8px 4px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+article.feedContainer .feedContents .commentOption{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-image: url("images/comment2.png");
+    background-color: pink;
+    margin-right: 25px;
+    margin-top: -35px;
+    cursor: pointer;
+
+}
+
+article.feedContainer .feedContents .share{
+    height: 24px;
+    width: 24px;
+    float:right;
+    margin-right: 40px;
+    background-image: url("https://bit.ly/2Ei4dYd");
+    background-position: -80px 50px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+article.feedContainer header .profileImage{
+    width: 35px;
+    height: 35px;
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    margin: 8px 8px 8px 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+article.feedContainer header .userTitle{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #262626;
+}
+article.feedContainer .userName, article.feedContainer .interestingCount{
+    font-weight: 600;
+    text-overflow: ellipsis;
+
+}
+article.feedContainer header .userName .location{
+    display: block;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+}
+
+article.feedContainer .commentBox{
+    display: block;
+    width:600px;
+    height: 50px;
+    padding: 5px;
+    border-top-width: 1pt;
+    border-top-style: solid;
+    border-top-color: rgba(191,145,194,0.01);
+
+}
+article.feedContainer .feedContents .commentMoreSee{
+    display:block;
+    margin : 5px 0;
+    outline:snow;
+    padding: 0;
+    border: none;
+    color: #999;
+    background-color: #fff;
+    cursor: pointer;
+}
+.commentText{
+    height: 30px;
+    max-width: 600px;
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+
+.navibarContainer {
+    background-color: #fff;
+    height: 35px;
+    padding: 26px 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.navibarContainer .navibar{
+    max-width: 1010px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.navibarContainer .instagram-logo{
+    float: left;
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    background-size: 350px;
+    background-image: url("https://bit.ly/2GvnR8N");
+    background-position: -149px 0;
+}
+
+.navibarContainer .feed {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-image:url('images/feed.png');
+}
+
+.navibarContainer .interesting{
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-image: url("images/interesting.png");
+}
+
+.navibarContainer .myprofile{
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-image: url("images/myprofile.png");
+}
+
+.searchForm{
+    position: relative;
+    width: 215px;
+    height: 26px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchIcon{
+
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    background-size: 413px 391px;
+    background-image: url("https://bit.ly/2GvnR8N");
+    background-position: -402px -22px;
+}
+.search{
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+    background: #fafafa;
+    padding: 3px 30px 3px 30px;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+
+.leading{
+    float: left;
+}
+.btn{
+    float : right;
+    cursor : pointer;
+}
+.trailing{
+    float:right;
+}
+

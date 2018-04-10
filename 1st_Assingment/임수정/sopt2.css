@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-size: 14px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    margin-left: 26%;
+    float: left;
+}
+
+form {
+    float: left;
+    margin: 10px;
+    margin-left: 200px;
+    background-color: #FAFAFA;
+    width: 150px;
+}
+
+.right_button {
+    float: right;
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.container {
+    margin: 0 auto;
+    width: 720px;
+}
+
+.peed_content {
+    margin-top: 10px;
+    border: 1px solid #bcbcbc;
+    width: 480px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.top {
+    width: 480px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.profile {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 10px;
+}
+
+.name {
+    font-size: 0.7rem;
+}
+
+.detail {
+    float: left;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+.main_peed {
+    width: 480px;
+    height: 480px;
+}
+
+.bottom {
+    width: 480px;
+    height: 140px;
+}
+
+.button {
+    overflow: hidden;
+}
+
+.heart,
+.message {
+    width: 17px;
+    height: 15px;
+    float: left;
+    margin: 10px;
+}
+
+#goodcount {
+    font-size: 10px;
+    margin: 10px;
+    margin-top: -5px;
+}
+
+.comment {
+    margin: 10px;
+    margin-top: -5px;
+    font-size: 10px;
+}
+
+#last_time {
+    margin-top: 5px;
+    color: gray;
+    font-size: 0.5rem;
+}
+
+.aside {
+    width: 240px;
+    float: left;
+}
+
+.my_profile {
+    margin: 20px;
+}
+
+hr {
+    margin-top: 70px;
+    margin-left: 20px;
+    border: 0.3px solid #bcbcbc;
+}
+
+.story_group {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.person {
+    overflow: hidden;
+}
+
+.pic {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.aside_detail {
+    font-size: 0.7rem;
+    color: gray;
+}
+
+h6 {
+    font-size: 0.8rem;
+    color: gray;
+    display: inline;
+    padding: 0px;
+}
+
+.person {
+    margin-top: 10px;
+}
+
+.detail2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.info {
+    margin-left: 20px;
+    font-size: 0.6rem;
+    color: gray;
+}

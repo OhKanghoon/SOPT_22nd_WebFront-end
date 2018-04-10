@@ -1,0 +1,169 @@
+div{
+    display: block;
+}
+
+.davely-image{
+    display: block;
+    margin-left: 350px;
+    margin-top: 5px;
+    width: 500px;
+    height: auto;
+
+}
+
+.davely-profile1{
+    margin-left: 350px;
+    margin-top: 120px;
+    display: inline;
+    color: #262626;
+}
+.davely-profile1 .davely-profile2{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    margin-top: 25px;
+    border-radius: 50%;
+}
+.kimda{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.instagram{
+    float: left;
+    margin-top: 15px;
+    margin-left: 250px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    background-image: url("images/instagram.png");
+
+}
+.search{
+    position: relative;
+    width: 215px;
+    height: 26px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+.searchText{
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+    background: #fafafa;
+    padding: 3px 30px 3px 30px;
+    color: #999;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+
+.btn{
+    float : right;
+    margin-top: 20px;
+    margin-right: 150px;
+    cursor : pointer;
+}
+
+.feed {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-image:url('images/clock.png');
+}
+.like{
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-image: url("images/hart.png");
+}
+.likeButton{
+    margin-left: 350px;
+    margin-right: 1px;
+    margin-top: 15px;
+    background-image: url("images/contentHart.png");
+    width: 40px;
+    height: 35px;
+    border: none;
+}
+.commentButton{
+    margin-left: 0px;
+    margin-top: 15px;
+    background-image: url("images/comment.png");
+    width: 40px;
+    height: 35px;
+    border: none;
+
+}
+.commentMoreSee{
+    display:block;
+    margin-left: 350px;
+    outline:snow;
+    padding: 0;
+    border: none;
+    color: #999;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.profile{
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-image: url("images/profile.png");
+}
+
+
+.page {
+    display: block;
+    width: 100%;
+    min-height: 800px;
+    overflow: auto;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.pageContent{
+    float: left;
+    clear: none;
+    min-height: 300px;
+    height: 600px;
+    width: 700px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.pageHeader{
+    background-color: #fff;
+    float: left;
+    clear: none;
+    min-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pageRightPanel{
+    background-color: #FF99FF;
+    margin-top: 50px;
+    margin-right: 150px;
+    float: right;
+    clear: none;
+    min-height: 600px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>instagram</title>
+
+    <link rel="stylesheet" href="instagram.css">
+    <style>
+        strong{
+            cursor: pointer;
+        }
+        #userName{
+            color: black;
+            font-weight: bold;
+        }
+        #list-userName{
+            color:black;
+            font-weight: bold;
+            font-size: small;
+            cursor: pointer;
+        }
+        #sl1{
+            float: left;
+            color: gray;
+            font-weight: bold;
+        }
+        #sl2{
+            float: right;
+            font-size: small;
+            cursor: pointer;
+        }
+        #guideLine{
+            color: lightgray;
+            font-size: x-small;
+            cursor: pointer;
+        }
+        #guideLine2{
+            font-weight: bold;
+            color: lightgray;
+            cursor: pointer;
+        }
+        #comment{
+            font-size: small;
+        }
+        #hash-tag{
+            color: blue;
+            cursor: pointer;
+            font-size: small;
+        }
+        #contentsText{
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <div class = "super-container">
+        <nav class = "navibarContainer">
+            <div class = "navibar">
+                <a class="leading instagram-logo" href="#"></a>
+                <form class = "searchForm" action="#" method="post">
+                    <input class = "search" type="text" name="search-argument" placeholder="검색" pattern="#?[\wㄱ-ㅎ|ㅏ-ㅣ|가-힣]+" title="특수문자 공백 입력 불가" required>
+                    <span class="searchIcon"></span>
+                </form>
+                <span class="btn">
+                    <a class="feed"></a>
+                    <a class="interesting"></a>
+                    <a class="myprofile"></a>
+                </span>
+            </div>
+        </nav>
+        <aside class="storyPanel">
+            <img class="profileImage" src="https://bit.ly/2q3KfeA" alt="profile">
+            <div id="userName">imhaba(web 1차과제)</div>
+            <p class="line"></p>
+            <div class="storyList">
+                <span id="sl1"> 스토리 </span>
+                <span id="sl2"> 모두보기 </span>
+                <p>
+                    <img class="profileImage" src="https://bit.ly/2GBSrd8" alt="profile">
+                    <span id="list-userName">sopt_회장</span>
+                </p>
+                <p>
+                    <img class="profileImage" src="https://bit.ly/2q6P9Yd" alt="profile">
+                    <span id="list-userName">sopt_안드로이드 파트장</span>
+                </p>
+                <p>
+                    <img class="profileImage" src="https://bit.ly/2H9mjOS" alt="profile">
+                    <span id="list-userName">sopt_ios 파트장</span>
+                </p>
+                <p>
+                    <img class="profileImage" src="https://bit.ly/2uNzGBS" alt="profile">
+                    <span id="list-userName">oh_kanghoon(웹팟장임)</span>
+                </p>
+
+            </div>
+            <p class="line"></p>
+            <p id="guideLine">
+                Sopstagram 정보 ・ 지원 ・ 블로그 ・ 홍보 센터 ・ API ・ 채용정보
+                <br>
+                <br>개인정보처리방침 ・ 약관 ・ 디렉터 ・ 프로필 ・ 해시태그 ・ 언어
+            </p>
+            <p id = guideLine2>
+                @2018 Sopstagram
+            </p>
+
+
+        </aside>
+        <article class = "feedContainer">
+            <header>
+                <a class="userTitle" href="#">
+                    <img class="profileImage" src="https://bit.ly/2q3KfeA" alt="profile">
+                    <span>
+                        <div id="userName">imhaba(web 1차과제)</div>
+                    </span>
+                </a>
+            </header>
+            <p>
+                <img src="https://bit.ly/2GyILnK">
+            </p>
+
+            <div class="feedContents">
+                <input type="button" class="feedInteresting interestingYet" id="interestingBtn">
+                <input type="button" class="commentIcon">
+                <input type="button" class="share">
+                <p class="interestingDesc">
+                    <strong>o_kanghoon</strong>님, <strong>imhaba</strong>님 외 <strong>25명</strong>이 좋아합니다
+                </p>
+                <p id="hash-tag">
+                   #Sopstagram#웹파트장#그것이바로#나의길#
+                </p>
+                <p id="contentsText">
+                    안녕하세요 웹프론트엔드 파트장 오강훈입니다. 1차세미나, 완전 쉽고 재밌죠~?
+                </p>
+                <input type="button" class="commentMoreSee" value="댓글 더 보기">
+                <span class="userName">o_kanghoon</span>
+                <span id="comment"> 2차세미나는 더 재밌을겁니다! 기대해주세요! </span>
+                <br>
+                <span class="userName">imhaba</span>
+                <span id="comment">우와와와!!</span>
+
+                <p class="line"></p>
+                <div class="feedContents commentBox">
+                    <form class="commentContainer">
+                        <textarea class="commentText" placeholder="파트장님을 위한 격려의 한마디..."></textarea>
+                    </form>
+                    <span class="commentOption"></span>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+</body>
+</html>
