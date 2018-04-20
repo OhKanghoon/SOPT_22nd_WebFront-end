@@ -7,4 +7,5 @@
 
 ## 발표자료
 
-- [1조 발표](https://www.slideshare.net/secret/2FhKZWOno91YU1)
+- [1조 발표 - HTML/CSS/Flexbox](https://www.slideshare.net/secret/2FhKZWOno91YU1)
+- [2조 발표 - JavaScript](https://www.slideshare.net/secret/3PfwT7Tp7EawrT)
